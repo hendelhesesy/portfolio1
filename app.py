@@ -8,7 +8,7 @@ choice = st.sidebar.radio("Navigation", menu)
 # ----------------- Home -----------------
 if choice == "Home":
     # صورة شخصية
-    st.image("images/Personal_Photo.png", width=200)
+    st.image("images/personal_photo.png", width=200)
     
     st.title("Hend Elhesesy – AI & Data Science Portfolio")
     st.subheader("Python | Machine Learning | Data Analysis")
